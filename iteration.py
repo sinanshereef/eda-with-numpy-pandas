@@ -1,0 +1,15 @@
+
+import numpy as np
+
+# a=np.array([1,2,3,4,5,6,7,8,9,0])
+#
+# for i in a:
+#     print(i)
+
+print('*'*100)
+
+d=np.array([[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]])
+for i in d:
+    for j in i:
+        print(j)
+

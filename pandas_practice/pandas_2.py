@@ -1,0 +1,26 @@
+
+
+import pandas as pd
+
+df=pd.read_csv("C:/Users/zinan/OneDrive/Documents/custom_windows.csv")
+print(df)
+print('*'*100)
+print(df.ndim)
+print('*'*100)
+print(df.dtypes)
+print('*'*100)
+print(df.size)
+print('*'*100)
+print(df.shape)
+print('*'*100)
+print(df.head(2))
+print('*'*100)
+print(df.tail(2))
+print('*'*100)
+print(df.shape[0])
+print('*'*100)
+print(df.describe())
+print('*'*100)
+print(df.describe(include='O'))
+print('*'*100)
+print(df.describe(include='all'))
